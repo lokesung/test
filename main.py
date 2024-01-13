@@ -1,7 +1,7 @@
 import pip
 #pip3 install python-telegram-bot
 #pip.main(['3', 'install', 'telegram'])
-pip.main(['install', 'python-telegram-bot'])
+#pip.main(['install', 'python-telegram-bot'])
 #pip.main(['3', 'install', 'python-telegram-bot'])
 #pip3.4 install  --user --upgrade future
 
