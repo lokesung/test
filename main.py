@@ -5,13 +5,13 @@ import pip
 #pip.main(['3', 'install', 'python-telegram-bot'])
 #pip3.4 install  --user --upgrade future
 
-export BOT_TOKEN='6900013318:AAHVBQY6d33kUkgpp_HGZrlwasfMVpX2XnE'
+export TOKEN='6900013318:AAHVBQY6d33kUkgpp_HGZrlwasfMVpX2XnE'
 import os
 import telebot
 
-TOKEN = os.environ.get('BOT_TOKEN')
+TOKEN = os.environ.get('TOKEN')
 BOT_USERNAME = '@Vantuc'
-bot = telebot.TeleBot(BOT_TOKEN)
+bot = telebot.TeleBot(TOKEN)
 
 
 #from typing import Final
