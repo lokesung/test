@@ -5,7 +5,7 @@ import pip
 #pip.main(['3', 'install', 'python-telegram-bot'])
 #pip3.4 install  --user --upgrade future
 
-TOKEN='6900013318:AAHVBQY6d33kUkgpp_HGZrlwasfMVpX2XnE'
+TOKEN ='6900013318:AAHVBQY6d33kUkgpp_HGZrlwasfMVpX2XnE'
 import os
 import telebot
 
