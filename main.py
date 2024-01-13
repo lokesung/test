@@ -5,12 +5,21 @@ import pip
 #pip.main(['3', 'install', 'python-telegram-bot'])
 #pip3.4 install  --user --upgrade future
 
-from typing import Final
+export BOT_TOKEN='6900013318:AAHVBQY6d33kUkgpp_HGZrlwasfMVpX2XnE'
+import os
+import telebot
+
+TOKEN = os.environ.get('BOT_TOKEN')
+BOT_USERNAME = '@Vantuc'
+bot = telebot.TeleBot(BOT_TOKEN)
+
+
+#from typing import Final
 from telegram import Update
 from telegram.ext import Application, CallbackContext, CommandHandler, MessageHandler, filters, ContextTypes
 
-TOKEN: Final = '6900013318:AAHVBQY6d33kUkgpp_HGZrlwasfMVpX2XnE'
-BOT_USERNAME: Final = '@Vantuc'
+#TOKEN: Final = '6900013318:AAHVBQY6d33kUkgpp_HGZrlwasfMVpX2XnE'
+#BOT_USERNAME: Final = '@Vantuc'
 
 
 
