@@ -37,5 +37,5 @@ jobs:
             
     - name: Test with pytest
       run: |
-        #test/main.py
+        #./main.py
         ls -ltr
